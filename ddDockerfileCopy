@@ -1,0 +1,5 @@
+FROM openjdk:8
+WORKDIR /app
+EXPOSE 8081
+ADD server/target/jtqj-server-bootified.jar /app
+ENTRYPOINT ["java","-jar","jtqj-server-bootified.jar"]
