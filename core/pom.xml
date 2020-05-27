@@ -9,7 +9,7 @@
 		<version>0.0.1</version>
 	</parent>
 	<artifactId>jtqj-core</artifactId>
-	<packaging>jar</packaging>
+	<packaging>war</packaging>
 	<name>${project.artifactId}</name>
 	<description>Core of the server for the jtqj application - a simple example based on devon4j.</description>
 
